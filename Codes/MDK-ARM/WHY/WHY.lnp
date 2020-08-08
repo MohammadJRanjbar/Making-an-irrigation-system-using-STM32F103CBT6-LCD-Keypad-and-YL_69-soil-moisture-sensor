@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"why\startup_stm32f103xb.o"
+"why\lm016.o"
+"why\main.o"
+"why\gpio.o"
+"why\tim.o"
+"why\stm32f1xx_it.o"
+"why\stm32f1xx_hal_msp.o"
+"why\stm32f1xx_hal_gpio_ex.o"
+"why\stm32f1xx_hal_tim.o"
+"why\stm32f1xx_hal_tim_ex.o"
+"why\stm32f1xx_hal.o"
+"why\stm32f1xx_hal_rcc.o"
+"why\stm32f1xx_hal_rcc_ex.o"
+"why\stm32f1xx_hal_gpio.o"
+"why\stm32f1xx_hal_dma.o"
+"why\stm32f1xx_hal_cortex.o"
+"why\stm32f1xx_hal_pwr.o"
+"why\stm32f1xx_hal_flash.o"
+"why\stm32f1xx_hal_flash_ex.o"
+"why\stm32f1xx_hal_exti.o"
+"why\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "WHY\WHY.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "WHY.map" -o WHY\WHY.axf
