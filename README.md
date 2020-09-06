@@ -17,6 +17,7 @@ We scan every row and every column in a loop if any button is pressed returns th
 
 <img src="Pics/Keypad1.png" width="400" class="center" />
 <img src="Pics/keypad2.png" width="400" class="center" />
+
 # LCD
 I used a 16x2 LCD and the code is based on it's datasheet 
 <img src="Pics/LCD1.png" width="400" class="center" />
